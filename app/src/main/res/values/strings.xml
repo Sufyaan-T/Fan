@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fan</string>
+    <string name="LED_ON">On</string>
+    <string name="LED_OFF">Off</string>
+    <string name="Options">Options</string>
+    <string name="Status"></string>
+    <string name="Refresh">Refresh</string>
+    <string name="tempimage">tempimage</string>
+</resources>
