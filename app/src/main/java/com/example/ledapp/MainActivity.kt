@@ -29,7 +29,6 @@ class MainActivity : AppCompatActivity() {
         val buttonRefresh: Button = findViewById(R.id.Refresh)
         val temperature: String = "Temperature:       "
         textView.text = temperature
-
         tempImage = findViewById(R.id.temp_Image)
 
 
