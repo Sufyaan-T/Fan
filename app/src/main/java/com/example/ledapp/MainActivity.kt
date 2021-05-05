@@ -1,5 +1,6 @@
 package com.example.ledapp
 
+import android.content.Intent
 import android.media.Image
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -27,10 +28,15 @@ class MainActivity : AppCompatActivity() {
         val buttonOn: Button = findViewById(R.id.LED_ON)
         val buttonOff: Button = findViewById(R.id.LED_OFF)
         val buttonRefresh: Button = findViewById(R.id.Refresh)
+        val buttonHelp: Button = findViewById(R.id.Help)
         val temperature: String = "Temperature:       "
         textView.text = temperature
         tempImage = findViewById(R.id.temp_Image)
 
+        buttonHelp.setOnClickListener{
+            val intent = Intent(this, SecondActivity::class.java)
+            startActivity(intent)
+        }
 
         buttonOn.setOnClickListener {
             funButtonOn()

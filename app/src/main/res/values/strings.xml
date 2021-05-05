@@ -6,4 +6,10 @@
     <string name="Status"></string>
     <string name="Refresh">Refresh</string>
     <string name="tempimage">tempimage</string>
+    <string name="Help">Help</string>
+    <string name="HelpText"> "Why isn't the fan turning on?: The fan may not be turning on because you have not wired up the wires correctly so make sure they are correctly wired to the schematic. \n
+The NodeMcu Isn't booting when stuff is connected?: This is a very common issue with the node mcu's build and that some digital pins need to be high and low in order to boot so make sure you are using the pins from the code and the schematic and not changing them to different ones in the code.
+\nWhat am I going to need?: You are going to need an internet connection, a nodemcu with the code flashed onto it, a dht11 sensor, and a turbo fan along with a 5v relay and basic jumper cables to wire everything accordingly or you can even solder it if you wish.
+\nDisclaimer: Remember if you are going to be handling the mains electricity part make sure you know what you are doing because you can electrocute yourself to death. Once you split the wire and it's hooked up to the relays you need to make sure that once it's on you don't touch the wires and if you need to change something turn the socket switch off and even use gloves if available.</string>
+    <string name="help">Help</string>
 </resources>
